@@ -1,0 +1,76 @@
+<resources>
+    <!-- Description Appli-->
+    <string name="app_name">FitMasterVersionF</string>
+
+
+    <!-- Nom des exos-->
+    <string name="jumpjack_name">Jumping Jacks</string>
+    <string name="plank_name">Planche</string>
+    <string name="pompes_name">Pompes</string>
+    <string name="sautjoints_name">Saut pied joints</string>
+    <string name="squatsaute_name">Squat Sautés</string>
+    <string name="soulpoids_name">Soulever de poids</string>
+    <string name="burpee_name">Burpees</string>
+    <string name="squatfentebulgare_name">Squat en fente bulgare</string>
+
+
+    <!-- Descriptions des exos-->
+    <string name="info_jumpingJack">1) Tiens-toi droit, les pieds joints avec les bras tendus le long du corps.
+        2) Saute en lançant les jambes et les pieds sur les côtés, tout en levant les bras au-dessus de la tête.</string>
+
+    <string name="info_plank">1) Maintenez votre torse droit et rigide. Votre corps doit former une ligne complètement droite, des oreilles aux orteils. Ne courbez ou ne pliez aucune partie de votre corps.
+        2) Votre tête est détendue, avec les yeux vers le sol.</string>
+
+    <string name="info_pompes">1) Commencez en position de planche haute.
+        2) Poussez votre corps vers le haut.
+        3) Poussez lentement en utilisant la force de vos bras pour revenir à votre position de départ. </string>
+
+    <string name="info_sautjoints">1) Commencer avec vos pieds joints, puis sauter le plus loin possible tout en gardant vos pieds joints.</string>
+
+    <string name="info_squatsaute">1)  Faites des squats en sautant en l’air en remontant.</string>
+
+    <string name="info_soulpoids">1) Prenez vos deux haltères dans la même main, tendez vos jambes et soulevez les poids.</string>
+
+    <string name="info_burpees">1) Descendez en squat, lancer vos jambes en arrière et faites une pompe. Ramenez vos jambes et sautez en l’air. </string>
+    <string name="info_squatfentebulgaire">1)  Poser l’un de vos pieds sur un banc et réalisé des squats tout en gardant votre pied sur le banc.</string>
+
+
+    <!--Notifications-->
+    <string name="channel_name">Fit Master</string>
+    <string name="channel_description">Fit Master Notifications</string>
+    <string name="channel_id">FMNotif</string>Faites vos exercices pour la journée.
+    <string name="notification_name">Restez en forme!</string>
+    <string name="notification_desc">Faites vos exercices pour la journée.</string>
+
+
+    <string name="alimentation"><b>Alimentation</b></string>
+    <string name="Titre1"><b>Fruits de mer</b></string>
+    <string name="Titre2"><b>Poisson</b></string>
+    <string name="Titre3"><b>Viande et oeuf</b></string>
+    <string name="Titre4"><b>Légume</b></string>
+    <string name="Titre5"><b>Fruit</b></string>
+    <string name="TextFDM">
+        Les coquillages et les crustacés ne contiennent qune très faible concentration de lipides (graisses) et de glucides (sucres). Ils sont par conséquent peu caloriques, en faisant des alliés de choix pour retrouver ou garder la ligne. Des alliés dautant plus précieux quils contiennent aussi beaucoup de protéines animales.
+
+    </string>
+
+    <string name="TextPoisson">
+    Le poisson possède des qualités nutritionnelles précieuses, notamment en oméga-3, indispensables au développement et fonctionnement du système nerveux et contribuent à la prévention des maladies cardio-vasculaires. Le poisson est également source de protéines, de minéraux.
+
+    </string>
+
+    <string name="TextViande">
+    Les viandes renferment en moyenne 20 % de protéines, donc très utile pour prendre du muscle mais attention l’apport en nutriment varie beaucoup entre les parties du corps de l’animal. Ce tableau donne des moyennes par espèce mais il faut privilégier les parties « fibreuse » c’est-à-dire composé de muscle. L’œuf est un cas à part, il contient tous les nutriments nécessaires et on pourrait en manger à chaque repas sans problème mais il faut savoir varié.
+
+    </string>
+
+    <string name="TextLegume">
+    Les légumes frais, d’apport énergétique particulièrement faible, sont parfait pour baisser ses apports en calorie. Leur richesse en eau, en fibres et en vitamines font qu’ils sont indispensables pour la santé. Néanmoins il y a certains type de légumes qu’il faut limité, comme les céréales. En effet ils ont un apport calorique important et ne vous aideront pour perdre du poids.
+
+    </string>
+
+    <string name="TextFruit">
+    Les fruits protègent le cœur et les vaisseaux sanguins. Grâce à leur richesse en antioxydants et en fibres alimentaires, les fruits, comme les légumes, préviennent oxydation du cholestérol afin empêcher apparition de maladies cardio-vasculaires, mais comme pour les légumes il y a des exceptions, ici les fruits à coques.
+
+        </string>
+</resources>

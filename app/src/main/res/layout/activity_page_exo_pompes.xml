@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageExoPompes">
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifJumpJac"
+        android:layout_width="330dp"
+        android:layout_height="275dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="229dp"
+        android:src="@drawable/pompes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="336dp"
+        android:layout_height="69dp"
+        android:text="@string/info_pompes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifJumpJac" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:onClick="startChronometer"
+        android:text="Start"
+        app:backgroundTint="@color/design_default_color_error"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="pauseChronometer"
+        android:text="Pause"
+        app:backgroundTint="@color/design_default_color_error"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/chronometer" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="33dp"
+        android:onClick="resetChronometer"
+
+        android:text="Reset"
+        app:backgroundTint="@color/design_default_color_error"
+        app:layout_constraintBottom_toTopOf="@+id/gifJumpJac"
+        app:layout_constraintEnd_toEndOf="@+id/gifJumpJac"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPrevListe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="170dp"
+        android:text="Exercice suivant"
+        android:visibility="invisible"
+
+        app:backgroundTint="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifJumpJac" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
